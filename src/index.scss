@@ -1,0 +1,20 @@
+//Shared
+@import 'shared/styles/_variables.scss';
+@import 'shared/styles/_mixins.scss';
+@import 'shared/styles/_layout.scss';
+@import 'shared/components/Form.scss';
+@import 'shared/components/Input.scss';
+@import 'shared/components/Button';
+//Components
+@import 'pages/customersList/components/ListRow.scss';
+@import 'pages/customersList/components/ListTable.scss';
+@import 'pages/customerDetails/components/Customer.scss';
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: $main-font;
+}
+

@@ -1,0 +1,39 @@
+.list-row {
+  border-top: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  cursor: pointer;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  .actions {
+    display: flex;
+    div {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      font-size: 12px;
+      margin-left: 10px;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  .info {
+    display: flex;
+    word-break: break-all;
+    margin: 10px 0px;
+    span {
+      line-height: 26px;
+      margin-right: 10px;
+      display: flex;
+    }
+  }
+  &:last-child {
+    border-bottom: 1px solid $border-color;
+
+  }
+  &:hover {
+    background: $list-row-hover;
+  }
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="customer"
+>
+  <Button
+    label="Go back"
+    onClick={[Function]}
+    type="button"
+  />
+  <div
+    className="customer-details"
+  >
+    <div>
+      Email: 
+      aurimas993@gmail.com
+    </div>
+    <div>
+      Full name:
+      Aurimas Jackevicius
+    </div>
+    <div>
+      City: 
+      Vilnius
+    </div>
+    <div>
+      Street: 
+      Ulvydo
+    </div>
+    <div>
+      House number:
+      7
+    </div>
+    <div>
+      Zipcode: 
+      08250
+    </div>
+  </div>
+</div>
+`;

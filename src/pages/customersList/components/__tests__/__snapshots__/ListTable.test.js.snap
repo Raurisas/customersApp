@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="list-table"
+>
+  <ListRow
+    handleEditClick={[Function]}
+    handleRemoveClick={[Function]}
+    handleRowClick={[Function]}
+    item={
+      Object {
+        "email": "aurimas993@gmail.com",
+        "id": 1,
+        "metadata": Object {
+          "city": "Vilnius",
+          "fullName": "Aurimas Jackevicius",
+          "houseNumber": "7",
+          "street": "Ulvydo",
+          "zipCode": "08250",
+        },
+      }
+    }
+    key="1"
+  />
+  <ListRow
+    handleEditClick={[Function]}
+    handleRemoveClick={[Function]}
+    handleRowClick={[Function]}
+    item={
+      Object {
+        "email": "aurimas993@gmail.com",
+        "id": 2,
+        "metadata": Object {
+          "city": "Vilnius",
+          "fullName": "Aurimas Jackevicius",
+          "houseNumber": "7",
+          "street": "Ulvydo",
+          "zipCode": "08250",
+        },
+      }
+    }
+    key="2"
+  />
+</div>
+`;

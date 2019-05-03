@@ -1,0 +1,16 @@
+.customer {
+  margin: 0 auto;
+  .customer-details {
+    border: 1px solid $border-color;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 30px;
+    margin-top: 10px;
+    & > div {
+      margin: 10px 0px;
+    }
+  }
+}
+
